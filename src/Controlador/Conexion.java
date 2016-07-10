@@ -27,7 +27,7 @@ public class Conexion {
 
     public void conectar() throws java.sql.SQLException
     {
-        String URL_bd="jdbc:mysql://hackwish.duckdns.org:3306/rtls";
+        String URL_bd="jdbc:mysql://hackwish.duckdns.org:33060/rtls";
         String usuario="root";
         String contraseña="korpkorp";
         setConexion(java.sql.DriverManager.getConnection(URL_bd,usuario,contraseña));
